@@ -19,10 +19,24 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
+  Tag.findOne({
+    where: {
+      id: req.params.id
+    },
+    include: [Product]
+  }).then(results => {
+    res.json(results)
+  })
 });
 
 router.post('/', (req, res) => {
   // create a new tag
+  Tag.create({
+    id: req.body.id,
+    tag_name: req.body.tag_name
+  }).then(results => {
+    res.json(results)
+  })
 });
 
 router.put('/:id', (req, res) => {
