@@ -8,6 +8,7 @@ By daxburatto
 ## Description
 
 E-Commerce is the backend of a traditional commercial business using Express.js and Sequelize to communicate with mySQL. This will allow users to GET, POST, PUT, and DELETE data for a business, it also allows you to sort by category, product, or specific tag items. Enter your credentials into dotenv and populate the database and you're all set.
+[Video](https://drive.google.com/file/d/1qtv7crrQq7v-y4mycH5LrzASXJP3wH3H/view)
 
 ## Table of Contents
 
@@ -26,8 +27,8 @@ Run the app with node server.js to start the server
 
 ## Credits
 
-Email: daxburatto@gmail.com
-Contributers:
+Credit to Chris Hrutkay for help on this project
+[Chris's Github](https://github.com/chris6661?tab=repositories)
 
 ## License
 
